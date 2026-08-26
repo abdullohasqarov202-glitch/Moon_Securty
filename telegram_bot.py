@@ -21,7 +21,7 @@ app = Flask(__name__)
 # 📢 MAJBURIY OBUNA
 # =========================
 
-CHANNEL_USERNAME = "@SENING_KANALING"
+CHANNEL_USERNAME = "@moonsecurityy"
 GROUP_USERNAME = "@SENING_GURUHING"
 
 
@@ -139,11 +139,10 @@ def start(message):
             message.chat.id,
 
             f"👋 Salom, <b>{message.from_user.first_name}</b>!\n\n"
-            "🤖 Savol-javob botiga xush kelibsiz!\n\n"
+            "🤖 Savo!\n\n"
             "Botdan foydalanish uchun avval "
-            "kanal va guruhga a'zo bo‘ling.\n\n"
+            "kanalga a'zo bo‘ling.\n\n"
             "📢 Kanal — majburiy\n"
-            "👥 Guruh — majburiy\n\n"
             "A'zo bo‘lgach, quyidagi tugmani bosing 👇",
 
             parse_mode="HTML",
